@@ -1,0 +1,371 @@
+/**Main **/
+body{
+    margin:0;
+    height: 1600px;
+}
+.container{
+    width:1170px;
+    margin: auto;
+}
+.clearFix{
+    clear:both;
+}
+/**end of main**/
+header{
+    background: #252f31;
+    overflow: hidden;
+}
+header .slider{
+   background-color: #EEE;
+    height: 29rem;
+    background: url(../images/1.jfif);
+    background-repeat: no-repeat;
+    background: cover;
+    background-size: cover;
+    background-position: bottom;
+
+}
+.layer{
+    background: rgba(0,0,0,.56);
+    height:100%;
+    width:100%;
+}
+header h1{
+    color:#000;
+    text-transform: uppercase;
+    float:left;
+    color:white;
+    padding-left: 2rem;
+}
+header h1 span{
+    color:#2add79;
+}
+header .main_menu{
+text-transform: uppercase;
+float: right;
+
+
+}
+header .main_menu ul{line-height: 1.5rem}
+header .main_menu li{
+    display: inline-block;
+    list-style: none;
+    padding:10px;
+
+}
+header .main_menu li a{
+    color: white;
+    text-decoration: none;
+
+}
+header .main_menu li a.active{
+     color:#2add79
+}
+header .main_menu li a:hover{
+     color:#2add79;
+
+}
+.intro{
+    text-align: center;
+    padding-top: 10rem;
+    color: white;
+}
+.intro h2{
+    margin: 0 auto;
+    font-size: 3rem;
+    text-transform: uppercase;
+    width: 600px;
+    border-top: 3px solid #FFF;
+    border-bottom: 3px solid #FFF;
+    padding: 5px 0;
+    color:white;
+}
+.intro button{
+   border: 1px solid;
+    background: none;
+    color: white;
+    margin-top: 2.5rem;
+    font-size: 20px;
+    padding: 10px;
+}
+/****header****/
+.featuers{
+    overflow: hidden;
+    padding-top: 1rem;
+}
+.featuers .featuer{
+   float: left;
+    width: 27.3333%;
+    height: 150px;
+    padding-left: 2rem;
+    
+}
+.featuers .featuer h2{
+   text-transform: uppercase;
+   color:#555;
+}
+ p{
+    color: #8a8787;
+    line-height: 1.7;
+
+}
+/***about_me***/
+
+.about_me{
+    overflow: hidden;
+    margin: 4rem 0;
+    height: 35rem;
+    background: #f2f2f2;
+}
+.about_me .image{
+    float: left;
+    width: 40%;
+}
+h2,h3{
+    color: #555;
+    text-transform: uppercase;
+}
+.about_me p{
+    line-height: 1.7;
+    color:#666;
+}
+.childHob{
+   width: 43%;
+    float: left;
+    padding-left: 1.5rem;
+}
+img{
+    width: 100%;
+}
+.about_me .info{
+   width:45%;
+   float:left;
+   padding: 2rem 3rem;
+}
+
+/****skills*****/
+.skills{
+    overflow: hidden;
+    padding: 2rem 0 2rem 8rem;
+
+}
+.skills h2{
+
+
+}
+.skills .rightSlide{
+    float: left;
+    width: 40%;
+}
+.skills .leftSlide
+{
+    float:left;
+    width:45%;
+    margin-left: 50px;
+
+}
+.skills .leftSlide h3{
+    color:#555;
+}
+.skills .leftSlide .techn div{
+    background: #F2F2F2;
+    height: 25px;
+}
+.skills .leftSlide div span{
+    background: #20cc70;
+    height: 25px;
+    display: block;
+    line-height: 25px;
+    text-align: right;
+    color:#fff;
+}
+
+.rightSlide button , .resume button{
+    background: none;
+    border: 1px solid #067b06;
+    padding: 10px 35px;
+    color: #067b06;
+    text-transform: uppercase;
+
+}
+/***resume****/
+.resume, .testMenius{
+    background: #f2f2f2;
+    text-align: center;
+    padding:3rem 0rem;
+    margin:2rem 0;
+    
+}
+.resume p{
+    width: 80%;
+    margin: 0px auto 1rem;
+}
+
+
+
+/******education********/
+.education .rightSlide,.education .leftSlide,.workExp .leftSlide,.workExp .rightSlide{
+    width: 40%;
+    float: left;
+    padding-left: 5rem;
+
+}
+.education .leftSlide h3{
+    margin-top: 4rem;
+    margin-bottom: 3px;}
+.education{
+overflow: hidden;
+padding: 0rem 3rem;
+}
+.leftSlide span{
+    display: block;
+    margin-bottom: 8px;
+}
+/*.education .leftSlide span:first-of-type{
+    color: #999;
+
+}
+.education .leftSlide span:last-of-type{
+    background: #2DCC70;
+    color:#fff;
+    display: inline-block;
+    padding: 3px;
+}*/
+.education .leftSlide span.first{
+    color: #999;
+
+}
+.education .leftSlide span.end{
+    background: #2DCC70;
+    color:#fff;
+    display: inline-block;
+    padding: 3px;
+}
+
+hr{margin:20px;background: #999;height: 1px;border:0;}
+
+/*******testMenius******/
+.testMenius{
+     padding: 4.5rem 0;
+}
+.testMenius p{
+    width:80%;
+    margin:0 auto;
+}
+.testMenius ul{
+    text-align: center;
+}
+.testMenius li{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+   border:2px solid #2DCC70 ;
+   border-radius: 50%;
+}
+.testMenius li.active{
+    background: #2DCC70;
+}
+/*****protofil*****/
+
+.portfolio{
+    padding: 2rem 0;
+    text-align: center;
+
+}
+.portfolio p{
+   width:80%;
+    margin:0 auto;
+    padding: 1rem 0;
+}
+.our_work{
+    overflow: hidden;
+}
+.our_work>div{
+   float: left;
+    width: 31.333%;
+    margin: 10px;
+}
+
+
+/**start contact me****/
+.contact{
+ background-color: #252F31;
+ overflow: hidden;
+ padding-top: 50px;
+ padding-bottom: 70px;
+
+}
+.contact h2{
+    color:#FFF;
+    margin-left: 40px;
+
+}
+.contact p{
+color:#6A6E71;
+margin-left: 40px;
+}
+.contact address{
+    color:#6A6E71;
+    padding-left: 3rem;
+
+}
+.contact strong{
+    color: #D1D6DA;
+}
+.contact .info{
+    width:45%;
+    float: left;
+
+}
+.contact .form{
+    width:50%;
+       margin-left: 5%;
+    margin-top:1rem;
+    float: left;
+}
+.contact .form label{
+    display: block;
+    margin: 10px 0;
+    color: #D1D6DA;
+
+}
+.contact .form input[type='text']{
+    color:#fff;
+    background: #485557;
+    padding: 10px;
+    border:0;
+    width: 70%;
+    margin-bottom: 10px;
+}
+.contact .form textarea{
+    color:#fff;
+    background: #485557;
+    padding: 10px;
+    border:0;
+    width: 70%;
+    margin-bottom: 10px;
+    height: 200px;
+
+}
+.contact .form input[type ='submit']{
+    background: #191E22;
+    color:#FFF;
+    padding:10px 20px;
+    margin-top: 20px;
+    border:0;
+}
+
+/*** end contact**/
+footer{
+    background-color: #191E22;
+    text-align: center;
+    padding: 1.5rem 0;
+}
+
+
+
+
+
+
+
+
